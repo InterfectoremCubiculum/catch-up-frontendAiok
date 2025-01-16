@@ -65,10 +65,10 @@ function App() {
                                         <NavLink to="/taskmanage" className="nav-link">Manage Tasks</NavLink>
                                     )}
                                     <NavLink to="/taskcontentmanage" className="nav-link">Task Content Manage</NavLink>
-                                    <NavLink to="/roadmapmanage" className="nav-link">RoadMap Manage</NavLink>
-                                    <NavLink to="/presetmanage" className="nav-link">Preset Manage</NavLink>
+                                    {/* <NavLink to="/roadmapmanage" className="nav-link">RoadMap Manage</NavLink>
+                                    <NavLink to="/presetmanage" className="nav-link">Preset Manage</NavLink> */}
                                     <NavLink to="/feedbacks" className="nav-link">Feedbacks</NavLink>
-                                    <NavLink to="/badges" className="nav-link">Badges</NavLink>
+                                    {/* <NavLink to="/badges" className="nav-link">Badges</NavLink> */}
                                     {role === 'Admin' && (
                                         <NavDropdown title="Admin Tools" id="basic-nav-dropdown">
                                             <NavDropdown.Item as={NavLink} to="/admin" className="nav-link">Admin Panel</NavDropdown.Item>
